@@ -1,0 +1,12 @@
+regionmap:
+  layers:
+    - name: "Municipalities of South Tyrol"
+      url: "http://my.cors.enabled.server.org/municipalities.json"
+      attribution: "Geoportal South Tyrol"
+      fields:
+        - name: "ISTAT_CODE"
+          description: "Code ISTAT"
+        - name: "NAME_I"
+          description: "Municipality in Italian"
+        - name: "NAME_D"
+          description: "Municipality in German"
